@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="styles.css">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="engine_google_logo_search_service_suits_icon_0.ico">
     <title>Google</title>
   </head>
   <body>
     <header>
-      <a class="header-elements" href="#">Gmail</a>
-      <a class="header-elements" href="#">Images</a>
-      <a class="header-elements" href="#"><img src="" alt="Menu Max"></a>
-      <a class="header-elements" href="#">image cloche</a>
-      <a class="header-elements" href="#">Logo-First-Letter </a>
+      <a class="header-elements" class="text-header" href="#">Gmail</a>
+      <a class="header-elements" class="text-header" href="#">Images</a>
+      <a class="header-elements" href="#"><img src="show_button_google.png" alt="Menu"></a>
+      <button class="bouton-connexion" type="button" name="Connexion">Connexion</button>
     </header>
 
     <section>
@@ -19,7 +19,7 @@
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
       </div>
       <div class="barre-recherche">
-        <input type="text" value="Tapez votre recherche">
+        <input type="text" onfocus="if(this.value == 'Tapez votre recherche') { this.value = ''; }" value="Tapez votre recherche">
       </div>
       <div class="boutons">
         <button type="button" name="Recherche Google">Recherche Google</button>

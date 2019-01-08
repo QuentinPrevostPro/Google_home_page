@@ -7,10 +7,28 @@ header {
   justify-content: flex-end;
   height: 6vh;
   align-items: center;
-
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding-top: 2.5vh;
+  padding-right: 35px; 
 }
+
 .header-elements {
-  margin : 5px;
+  margin : 7px;
+  text-decoration: none;
+  color: rgb(67,67,67);
+}
+
+.header-elements:hover {
+  text-decoration: underline;
+}
+
+.bouton-connexion {
+  background-color: #4386FA;
+  color: #FFFFFD;
+  font-weight: bolder;
+  border-radius: 3px;
+  width: 100px;
 }
 
 section {
@@ -18,7 +36,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 82.5vh;
 }
 
 .barre-recherche {
@@ -26,6 +44,7 @@ section {
 	height: 6.5%;
 	margin-top: 20px;
 	margin-bottom: 25px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 input {
@@ -43,34 +62,39 @@ button {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
 footer {
   height : 9vh;
-  background-color: #F2F2F2
+  background-color: #F2F2F2;
 }
+
 .pays {
   display: flex ;
   border-top: 2px #E4E4E4 solid;
   border-bottom: 2px #E4E4E4 solid;
   height : 50%;
-  margin: 10px;
+  padding-left: 10px;
   justify-content: center;
   flex-direction : column;
   font-family: arial, sans-serif;
   font-size: 15px;
   color: #5F6374;
 }
+
 .lien {
   display: flex;
   height: 50%;
   font-family: arial, sans-serif;
   font-size: 15px;
 }
+
 .lien-gauche {
   display: flex;
   height: 100%;
   width: 50%;
   align-items: center;
 }
+
 .lien-droite {
   display: flex;
   align-items: center;
@@ -78,6 +102,7 @@ footer {
   height: 100%;
   width: 50%;
 }
+
 .lien-elements {
   margin: 10px;
   text-decoration: none;
